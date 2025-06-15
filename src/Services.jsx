@@ -16,23 +16,30 @@ function Services() {
             },[])
   return (
     <div>
-     <section className="px-6 py-16  text-gray-800">
+     <section className="px-6 py-16  text-black">
   <h1 className="text-3xl  text-white font-bold text-center mb-12 underline decoration-pink-500"data-aos="slide-right">
     Projects
   </h1>
 
   <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-3" >
     <div className="bg-gray-900 rounded-md p-4">
-    <div className="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"data-aos="fade-up">
+    <div className="bg-white   shadow-md rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"data-aos="fade-up">
       <img src={Lonexa} alt="Lonexa Villa Website" className="w-full h-48 object-cover" />
       <div className="p-5">
-        <h2 className="text-xl font-semibold mb-2">Lonexa Villa Website</h2>
+        <h2 className="text-xl font-extrabold text-center mb-2">Lonexa Villa Website</h2>
         <p className="text-sm mb-4">
           A modern, responsive business website built with React and Tailwind CSS. It features clean UI, smooth navigation, and a professional layout designed to showcase services and build brand credibility.
         </p>
-        <button className="px-4 py-2 ml-16 bg-pink-500 text-white rounded-md hover:bg-pink-600 transition">
-          View Details
-        </button>
+        <div className="text-center">
+  <a
+    href="https://lonexa-villa-jcxd.vercel.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block px-4 py-2 bg-pink-500 text-white rounded-md hover:bg-pink-600 transition"
+  >
+    View Demo
+  </a>
+</div>
       </div>
     </div>
     </div>
@@ -42,13 +49,20 @@ function Services() {
     <div className="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"data-aos="fade-up">
       <img src={Todo} alt="To-do List App" className="w-full h-48 object-cover" />
       <div className="p-5">
-        <h2 className="text-xl font-semibold mb-2">To-do List App</h2>
+        <h2 className="text-xl font-extrabold text-center mb-2">To-do List App</h2>
         <p className="text-sm mb-4">
           A minimalist task management app built using React. It features full CRUD functionality, responsive design, and interactive icons — all managed through React state.
         </p>
-        <button className="px-4 py-2 ml-16 bg-pink-500 text-white rounded-md hover:bg-pink-600 transition">
-          View Details
-      </button>
+        <div className="text-center">
+  <a
+    href="https://todo-app-git-main-rohan-patils-projects-68c83633.vercel.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block px-4 py-2 bg-pink-500 text-white rounded-md hover:bg-pink-600 transition"
+  >
+    View Demo
+  </a>
+</div>
     </div>
   </div>
 </div>
@@ -57,13 +71,20 @@ function Services() {
     <div className="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"data-aos="fade-up">
       <img src={Shopping} alt="Shopping Website" className="w-full h-48 object-cover" />
       <div className="p-5">
-        <h2 className="text-xl font-semibold mb-2">Shopping Website</h2>
+        <h2 className="text-xl font-extrabold text-center mb-2">Shopping Website</h2>
         <p className="text-sm mb-4">
           A user-friendly eCommerce front-end built with React and Tailwind CSS. It includes product listings, category filtering, and a clean layout — ready for future API and cart integration.
         </p>
-        <button className="px-4 py-2 ml-16 bg-pink-500  text-white rounded-md hover:bg-pink-600 transition">
-          View Details
-        </button>
+                <div className="text-center">
+  <a
+    href="/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block px-4 py-2 bg-pink-500 text-white rounded-md hover:bg-pink-600 transition"
+  >
+    View Demo
+  </a>
+</div>
       </div>
     </div>
   </div>

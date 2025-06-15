@@ -66,7 +66,7 @@ export default function Home() {
           </div>
 
           {/* Right Image */}
-          <div className="relative w-64 h-64 md:w-96 md:h-96">
+          <div className="relative w-96 h-96 sm:w-96 sm:h-96 md:w-96 md:h-96">
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="w-64 h-64 md:w-96 md:h-96 bg-purple-500 rounded-full blur-2xl opacity-50"></div>
             </div>
@@ -82,7 +82,7 @@ export default function Home() {
           A passionate frontend developer crafting responsive, user-focused web experiences.
         </p>
         <div className="flex flex-col-reverse md:flex-row items-center justify-center gap-16 max-w-6xl mx-auto" data-aos="fade-up">
-          <div className="relative w-64 h-64 md:w-96 md:h-96" data-aos="slide-right">
+          <div className="relative w-96 h-96 md:w-96 md:h-96" data-aos="slide-right">
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="w-64 h-64 md:w-96 md:h-96 bg-purple-500 rounded-full blur-2xl opacity-50"></div>
             </div>
@@ -106,30 +106,79 @@ export default function Home() {
           </button>
         </Link>
       </section>
-
-      {/* Projects Section */}
-      <section className="px-6 py-16 text-black ">
-        <h1 className="text-3xl text-white font-bold text-center mb-12 underline decoration-pink-500" data-aos="slide-right">
-          Projects
-        </h1>
-        <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-3" data-aos="fade-up">
-          {[{ img: Lonexa, title: "Lonexa Villa Website", desc: "  A modern, responsive business website built with React and Tailwind CSS. It features clean UI, smooth navigation, and a professional layout designed to showcase services and build brand credibility." },
-            { img: Todo, title: "To-do List App", desc: "A minimalist task management app built using React. It features full CRUD functionality, responsive design, and interactive icons — all managed through React state." },
-            { img: Shopping, title: "Shopping Website", desc: " A user-friendly eCommerce front-end built with React and Tailwind CSS. It includes product listings, category filtering, and a clean layout — ready for future API and cart integration." }].map((project, index) => (
-            <div key={index} className="bg-gray-900 rounded-md p-4">
-              <div className="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                <img src={project.img} alt={project.title} className="w-full h-48 object-cover" />
-                <div className="p-5">
-                  <h2 className="text-xl text-center font-black mb-2">{project.title}</h2>
-                  <p className="text-sm  mb-4">{project.desc}</p>
-                  <button className="px-4 py-2 ml-16 bg-pink-500 text-white rounded-md hover:bg-pink-600 transition">
-                    View Details
-                  </button>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
+      <section className="px-6 py-16  text-black">
+       <h1 className="text-3xl  text-white font-bold text-center mb-12 underline decoration-pink-500"data-aos="slide-right">
+         Projects
+       </h1>
+     
+       <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-3" >
+         <div className="bg-gray-900 rounded-md p-4">
+         <div className="bg-white   shadow-md rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"data-aos="fade-up">
+           <img src={Lonexa} alt="Lonexa Villa Website" className="w-full h-48 object-cover" />
+           <div className="p-5">
+             <h2 className="text-xl font-extrabold text-center mb-2">Lonexa Villa Website</h2>
+             <p className="text-sm mb-4">
+               A modern, responsive business website built with React and Tailwind CSS. It features clean UI, smooth navigation, and a professional layout designed to showcase services and build brand credibility.
+             </p>
+             <div className="text-center">
+       <a
+         href="https://lonexa-villa-jcxd.vercel.app/"
+         target="_blank"
+         rel="noopener noreferrer"
+         className="inline-block px-4 py-2 bg-pink-500 text-white rounded-md hover:bg-pink-600 transition"
+       >
+         View Demo
+       </a>
+     </div>
+           </div>
+         </div>
+         </div>
+     
+         
+         <div className="bg-gray-900 rounded-md p-4">
+         <div className="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"data-aos="fade-up">
+           <img src={Todo} alt="To-do List App" className="w-full h-48 object-cover" />
+           <div className="p-5">
+             <h2 className="text-xl font-extrabold text-center mb-2">To-do List App</h2>
+             <p className="text-sm mb-4">
+               A minimalist task management app built using React. It features full CRUD functionality, responsive design, and interactive icons — all managed through React state.
+             </p>
+             <div className="text-center">
+       <a
+         href="https://todo-app-git-main-rohan-patils-projects-68c83633.vercel.app/"
+         target="_blank"
+         rel="noopener noreferrer"
+         className="inline-block px-4 py-2 bg-pink-500 text-white rounded-md hover:bg-pink-600 transition"
+       >
+         View Demo
+       </a>
+     </div>
+         </div>
+       </div>
+     </div>
+       
+         <div className="bg-gray-900 rounded-md p-4">
+         <div className="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"data-aos="fade-up">
+           <img src={Shopping} alt="Shopping Website" className="w-full h-48 object-cover" />
+           <div className="p-5">
+             <h2 className="text-xl font-extrabold text-center mb-2">Shopping Website</h2>
+             <p className="text-sm mb-4">
+               A user-friendly eCommerce front-end built with React and Tailwind CSS. It includes product listings, category filtering, and a clean layout — ready for future API and cart integration.
+             </p>
+                     <div className="text-center">
+       <a
+         href="/"
+         target="_blank"
+         rel="noopener noreferrer"
+         className="inline-block px-4 py-2 bg-pink-500 text-white rounded-md hover:bg-pink-600 transition"
+       >
+         View Demo
+       </a>
+     </div>
+           </div>
+         </div>
+       </div>
+     </div>
         <Link to="/services">
           <button className="mt-10 bg-gradient-to-r from-pink-600 to-purple-600 border-2 border-white text-white px-6 py-3 rounded-full hover:scale-105 transition duration-300 mx-auto block" data-aos="zoom-in">
             View More

@@ -35,14 +35,14 @@ function Resume() {
             <a
               href="/Rohan Resume.docx"
               download
-              className="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-lg font-medium transition duration-300"
+              className="bg-red-500 hover:bg-red-600 text-white text-center px-6 py-3 rounded-lg font-medium transition duration-300"
             >
               Download Resume
             </a>
 
             <a
               href="#contact"
-              className="border-2 border-red-500 text-red-500 hover:bg-red-500 hover:text-white px-6 py-3 rounded-lg font-medium transition duration-300"
+              className="border-2 border-red-500 text-red-500 hover:bg-red-500 hover:text-white text-center px-6 py-3 rounded-lg font-medium transition duration-300"
             >
               Hire Me
             </a>

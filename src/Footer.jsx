@@ -20,7 +20,7 @@ export default function Footer() {
 
         {/* Education Section */}
         <div className="border-l-4 border-r-4 border-red-500 p-6 rounded-lg shadow-md">
-          <h2 className="text-xl font-semibold text-center mb-4 underline decoration-red-500">Education</h2>
+          <h2 className="text-xl font-semibold text-center mb-4 underline  decoration-pink-500">Education</h2>
           <p className="text-sm">
             Bachelor of Computer Applications (BCA)<br />
             Chhatrapati Shivaji Maharaj University<br />
@@ -40,8 +40,8 @@ export default function Footer() {
 
         {/* Quick Links Section */}
         <div>
-          <h2 className="text-xl font-semibold mb-4 underline decoration-red-500">Quick Links</h2>
-          <ul className="grid grid-cols-2 gap-4">
+          <h2 className="text-xl font-semibold mb-4 text-center underline decoration-pink-500">Quick Links</h2>
+          <ul className="grid grid-cols-2 text-center  gap-4">
             <Link to='/'><li className="cursor-pointer hover:text-red-500">Home</li></Link>
             <Link to='/about'><li className="cursor-pointer hover:text-red-500">About</li></Link>
             <Link to='/services'><li className="cursor-pointer hover:text-red-500">Projects</li></Link>
@@ -49,14 +49,12 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Social Media Icons Section */}
-        {/* Social Media Icons Section */}
 <div>
   <h2 className="text-xl font-semibold mb-4 underline decoration-red-500 text-center md:text-left">Connect With Me</h2>
   <ul className="flex flex-wrap gap-6 justify-center md:justify-start items-center">
     {/* Phone */}
     <li>
-      <a href="tel:+919876543210">
+      <a href="tel:+919322413836">
         <motion.img
           src={PhoneIcon}
           alt="Call Me"

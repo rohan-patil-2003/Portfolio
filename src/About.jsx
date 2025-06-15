@@ -84,7 +84,7 @@ export default function About() {
         </p>
 
         <div className="flex flex-col-reverse md:flex-row items-center justify-center gap-16 max-w-6xl mx-auto">
-           <div className="relative w-64 h-64 md:w-96 md:h-96" data-aos="fade-up">
+           <div className="relative w-96 h-96 md:w-96 md:h-96" data-aos="fade-up">
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="w-64 h-64 md:w-96 md:h-96 bg-purple-500 rounded-full blur-2xl opacity-50"></div>
             </div>
@@ -117,7 +117,7 @@ export default function About() {
          
       </section>
       <section className="max-w-3xl mx-auto  px-4 py-16" data-aos="fade-up">
-        <h2 className="text-3xl font-bold text-center mb-10">Get to Know Me</h2>
+        <h2 className="text-3xl font-bold text-center mb-10 underline decoration-pink-500" data-aos="slide-right">Get to Know Me</h2>
         {faqData.map((item,index)=>(
           <div key={index} className="mb-4 border border-gray-200 rounded-lg shadow-md shadow-gray-100">
             <button onClick={()=>toggle(index)}  className="w-full flex items-center justify-between p-4 font-medium text-white text-lg bg-gray-900 hover:bg-purple-800 transition"

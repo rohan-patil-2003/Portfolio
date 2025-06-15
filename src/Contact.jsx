@@ -40,7 +40,7 @@ useEffect(()=>{
         Have a project in mind or just want to say hello? Fill out the form below to get in touch — I’ll get back to you soon!
       </p>
 
-      <form ref={form} onSubmit={sendEmail} className="max-w-xl mx-auto bg-white p-6 rounded-lg shadow-md space-y-4"data-aos="fade-up">
+      <form ref={form} onSubmit={sendEmail} className="max-w-xl mx-auto bg-white text-black p-6 rounded-lg shadow-md space-y-4"data-aos="fade-up">
         <input
           type="text"
           name="user_name"
