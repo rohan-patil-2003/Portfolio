@@ -19,7 +19,7 @@ useEffect(()=>{
 
     emailjs.sendForm(
       'service_y8gznad',     
-      'template_default',    
+      'template_ega44l8',    
       form.current,
       'oBd8fBAx3egYJs00u'     
     )
@@ -29,7 +29,7 @@ useEffect(()=>{
     })
     .catch((error) => {
       console.error('EmailJS Error:', error);
-      alert('Something went wrong. Please try again.');
+      alert(`Something went wrong: ${error?.text || error}`);
     });
   };
 
@@ -43,14 +43,14 @@ useEffect(()=>{
       <form ref={form} onSubmit={sendEmail} className="max-w-xl mx-auto bg-white text-black p-6 rounded-lg shadow-md space-y-4"data-aos="fade-up">
         <input
           type="text"
-          name="user_name"
+          name="name"
           placeholder="Your Name"
           required
           className="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
         />
         <input
           type="email"
-          name="user_email"
+          name="email"
           placeholder="Your Email"
           required
           className="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-500"
