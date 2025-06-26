@@ -32,7 +32,7 @@ function Services() {
         </p>
         <div className="text-center">
   <a
-    href="https://lonexa-villa-jcxd.vercel.app/"
+    href="https://lonexa-villa-mikp.vercel.app/"
     target="_blank"
     rel="noopener noreferrer"
     className="inline-block px-4 py-2 bg-pink-500 text-white rounded-md hover:bg-pink-600 transition"
@@ -68,26 +68,26 @@ function Services() {
 </div>
   
     <div className="bg-gray-900 rounded-md p-4">
-    <div className="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"data-aos="fade-up">
-      <img src={Shopping} alt="Shopping Website" className="w-full h-48 object-cover" />
-      <div className="p-5">
-        <h2 className="text-xl font-extrabold text-center mb-2">Shopping Website</h2>
-        <p className="text-sm mb-4">
-          A user-friendly eCommerce front-end built with React and Tailwind CSS. It includes product listings, category filtering, and a clean layout — ready for future API and cart integration.
-        </p>
-                <div className="text-center">
-  <a
-    href="/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="inline-block px-4 py-2 bg-pink-500 text-white rounded-md hover:bg-pink-600 transition"
+  <div
+    className="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
+    data-aos="fade-up"
   >
-    View Demo
-  </a>
-</div>
+    <img src={Shopping} alt="Shopping Website" className="w-full h-48 object-cover" />
+    <div className="p-5">
+      <h2 className="text-xl font-extrabold text-center mb-2">Shopping Website</h2>
+      <p className="text-sm mb-4">
+        A user-friendly eCommerce front-end built with React and Tailwind CSS. It includes product listings, category filtering, and a clean layout — ready for future API and cart integration.
+      </p>
+
+      <div className="text-center">
+        <span className="inline-block px-4 py-2 bg-yellow-400 text-gray-800 font-semibold rounded-md cursor-not-allowed">
+          🚧 Project Coming Soon
+        </span>
       </div>
     </div>
   </div>
+</div>
+
 </div>
 </section>
 

@@ -13,19 +13,19 @@ function Resume() {
         },[])
   return (
     <div className="px-6 py-16 b text-center">
-      {/* Heading */}
+    
       <h1 className="text-4xl font-bold uderline-none md:underline md:decoration-pink-500 mb-10"data-aos="slide-right">
         Why You Should Hire Me for Your Next Project
       </h1>
 
-      {/* Content */}
+    
       <div className="flex flex-col md:flex-row items-center justify-center gap-10">
         
         <div className="w-full md:w-1/3"data-aos="zoom-in">
           <img src={Rohan} alt="Rohan" className="w-full max-w-xs mx-auto" />
         </div>
 
-        {/* Text and Buttons */}
+      
         <div className="w-full md:w-2/3 text-justify md:text-left"data-aos="fade-up">
           <p className=" text-lg mb-8 max-w-2xl mx-auto md:mx-0">
             I'm a passionate frontend developer who builds clean, responsive, and user-friendly websites using React.js and Tailwind CSS. I bring a combination of technical skill, creativity, and communication that ensures your project is in the right hands.
